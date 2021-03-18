@@ -8,7 +8,7 @@ export default function CalendarContainer({
   arrowProps = {}
 }) {
   return (
-    <div className={className}>
+    <div className={className} role="application">
       {showPopperArrow && (
         <div className="react-datepicker__triangle" {...arrowProps} />
       )}
